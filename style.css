@@ -1,0 +1,62 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  /* title section */
+  h1{
+    margin-bottom: 15px;
+  }
+  #title{
+   height: 100vh;
+   margin-bottom: 100px;
+ }
+ .title-text{
+    margin-top: 150px;
+    color: honeydew;
+ }
+ .title-header{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+ }
+ 
+ /* Blog section */
+ 
+ #blog{
+    margin-bottom: 100px;
+ }
+ .container-blog{
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+.blog-image{
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+    text-align: right;
+}
+.container-blog p{
+  font-size: 16px;
+}

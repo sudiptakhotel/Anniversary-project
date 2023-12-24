@@ -1,0 +1,22 @@
+/* cover page */
+body{
+    /* background-color: #94bbe9 */
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cover-container{
+    max-width: 42em;
+  }
+.coverpage-text{
+    
+    margin-top: 200px;
+
+}
+.lead{
+    margin-top: 50px;
+}
+h1{
+    font-family: 'Sacramento', cursive;;
+}
